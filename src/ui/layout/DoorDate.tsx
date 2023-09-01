@@ -14,7 +14,7 @@ export function DoorDate({ date }: DooreDateProps) {
    */
   useEffect(() => {
     setCurrentDate(getLocaleString(date, DateTime.DATETIME_SHORT_WITH_SECONDS));
-  }, []);
+  }, [date]);
 
   return <Typography>{currentDate}</Typography>;
 }
