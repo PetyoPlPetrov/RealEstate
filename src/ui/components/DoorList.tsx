@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 import { Door } from '@/models/Door';
 import { DataGrid, GridColDef, GridRowParams } from '@mui/x-data-grid';
 import Typography from '@mui/material/Typography';
-import { DoorDate } from '../layout/DoorDate';
+import { DoorDate } from '@/ui/layout/DoorDate';
 
 interface DoorListProps {
   doors: Door[];

@@ -2,7 +2,7 @@ import Typography from '@mui/material/Typography';
 import { Door } from '@/models/Door';
 import { DetailPageContainer } from '@/ui/layout/DetailPageContainer';
 import { DetailPageItem } from '@/ui/layout/DetailPageItem';
-import { DoorDate } from '../layout/DoorDate';
+import { DoorDate } from '@/ui/layout/DoorDate';
 
 interface DoorDetailProps {
   door: Door;
