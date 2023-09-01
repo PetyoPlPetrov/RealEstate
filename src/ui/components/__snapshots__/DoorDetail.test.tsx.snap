@@ -75,6 +75,22 @@ exports[`DoorDetail should render correctly 1`] = `
       class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
     >
       <strong>
+        Last Connection
+      </strong>
+    </p>
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+    >
+      2/22/2023, 5:00:11 AM
+    </p>
+  </div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+    >
+      <strong>
         Connection status
       </strong>
     </p>
