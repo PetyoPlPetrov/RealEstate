@@ -2,7 +2,7 @@
 
 exports[`DoorList should render correctly 1`] = `
 <div
-  aria-colcount="4"
+  aria-colcount="5"
   aria-multiselectable="false"
   aria-rowcount="2"
   class="MuiDataGrid-root MuiDataGrid-autoHeight MuiDataGrid-root--densityStandard MuiDataGrid-withBorderColor css-5wly58-MuiDataGrid-root"
@@ -231,10 +231,10 @@ exports[`DoorList should render correctly 1`] = `
           </div>
           <div
             aria-colindex="3"
-            aria-label="Connection type"
+            aria-label="Apartment"
             aria-sort="none"
             class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
-            data-field="connectionType"
+            data-field="apartmentName"
             role="columnheader"
             style="height: 56px; width: 0px; min-width: 0; max-width: 0;"
             tabindex="-1"
@@ -254,7 +254,7 @@ exports[`DoorList should render correctly 1`] = `
                     class="MuiDataGrid-columnHeaderTitle css-t89xny-MuiDataGrid-columnHeaderTitle"
                     data-mui-internal-clone-element="true"
                   >
-                    Connection type
+                    Apartment
                   </div>
                 </div>
                 <div
@@ -394,16 +394,16 @@ exports[`DoorList should render correctly 1`] = `
               aria-colspan="1"
               class="MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor"
               data-colindex="2"
-              data-field="connectionType"
+              data-field="apartmentName"
               role="cell"
               style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
               tabindex="-1"
             >
               <div
                 class="MuiDataGrid-cellContent"
-                title="wired"
+                title="Apartment 1.1"
               >
-                wired
+                Apartment 1.1
               </div>
             </div>
           </div>
