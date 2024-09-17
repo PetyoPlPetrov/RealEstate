@@ -1,4 +1,4 @@
-# dormakaba coding challenge
+# Challenge
 
 The challenge contains a door list and detail page. The applicants are asked to implement new use cases and fix some bugs based on the handout, which is provided together with the challenge itself.
 
